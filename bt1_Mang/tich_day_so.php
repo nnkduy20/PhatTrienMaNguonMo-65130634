@@ -115,7 +115,6 @@ if (isset($_POST['btn_tich'])) {
     }
 }
 ?>
-
 <div class="container">
     <div class="header">
         <h2>Tính Tích Dãy Số</h2>
@@ -137,7 +136,6 @@ if (isset($_POST['btn_tich'])) {
                        value="<?php echo htmlspecialchars($tich); ?>" 
                        readonly placeholder="Kết quả tích sẽ hiển thị ở đây">
             </div>
-
             <button type="submit" name="btn_tich" class="btn-submit">Tích dãy số</button>
         </form>
     </div>

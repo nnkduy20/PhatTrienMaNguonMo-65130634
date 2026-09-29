@@ -13,7 +13,7 @@
             background-color: #f4f6f9;
             margin: 0;
         }
-        /* Style khung thông báo bo viền màu tím hồng theo slide */
+
         .box-message {
             background: #fff;
             padding: 25px 30px;
@@ -40,8 +40,6 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
         $confirm_password = $_POST['confirm_password'];
-
-        // Kiểm tra điều kiện Password và Confirm Password
         if ($password !== $confirm_password) {
             echo "<div class='msg-text'>Incorrect confirm password!</div>";
         } else {
